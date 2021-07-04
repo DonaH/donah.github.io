@@ -77,11 +77,21 @@
 			&.main {
 				margin: (_size(element-margin) * 1) 0;
 			}
+			img {
+				&.myPic {
+				width: 72%;
+				}
+			}
 		}
 
 		@include breakpoint(xsmall) {
 			&.main {
 				margin: (_size(element-margin) * 0.75) 0;
+			}
+			img {
+				&.myPic {
+				width: 60%;
+				}
 			}
 		}
 	}
