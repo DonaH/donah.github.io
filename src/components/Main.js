@@ -7,7 +7,7 @@ import colors from '../images/colors.png'
 import cit from '../images/cit.png'
 import cit2 from '../images/cit2.png'
 import beginGrading from '../images/beginGrading.png'
-import duringGrading from '../images/duringGrading.png'
+import recordedGrading from '../images/recordedGrading.png'
 import runReports from '../images/runReports.png'
 
 class Main extends React.Component {
@@ -42,7 +42,7 @@ class Main extends React.Component {
             the frontend and bring the product to live.
           </p>
           <span className="image main">
-            <img src={colors} alt="" />
+            <img src={colors} alt="colors per design system" />
           </span>
           <p>
             Using high fidelity prototypes to demo the workflow, so 
@@ -55,10 +55,10 @@ class Main extends React.Component {
             are simply not necessary. 
           </p>
           <span className="image main">
-            <img src={cit2} alt="" />
+            <img src={cit2} alt="course integration tools extended" />
           </span>
           <span className="image main">
-            <img src={beginGrading} alt="" />
+            <img src={beginGrading} alt="interactive grading feature" />
           </span>
           {close}
         </article>
@@ -80,7 +80,7 @@ class Main extends React.Component {
             of delightful product that's truly impactful.
           </p>
           <span className="image main">
-            <img src={runReports} alt="" />
+            <img src={runReports} alt="run reports landing page" />
           </span>
           <p>
             I prototype and code various projects. My favorite prototyping tool 
@@ -90,10 +90,10 @@ class Main extends React.Component {
             about it. 
           </p>
           <span className="image main">
-            <img src={cit} alt="" />
+            <img src={cit} alt="course integration tools" />
           </span>
           <span className="image main">
-            <img src={duringGrading} alt="" />
+            <img src={recordedGrading} alt="gradings recorded" />
           </span>
           {close}
         </article>
@@ -116,7 +116,7 @@ class Main extends React.Component {
             favorite image from unsplash.
           </p>
           <span className="image main">
-            <img src={loneHike} alt="" />
+            <img src={loneHike} alt="favorite pic from unsplash" />
           </span>
           {close}
         </article>
@@ -130,7 +130,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <span className="image img">
-            <img className="myPic" src={myPic} alt="" />
+            <img className="myPic" src={myPic} alt="profile picture" />
           </span>
           <form method="post" action="https://formspree.io/f/xknkzpvk">
             <div className="field half first">
