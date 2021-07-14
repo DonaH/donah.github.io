@@ -7,8 +7,10 @@ import colors from '../images/colors.png'
 import cit from '../images/cit.png'
 import cit2 from '../images/cit2.png'
 import beginGrading from '../images/beginGrading.png'
-import recordedGrading from '../images/recordedGrading.png'
+import postGrading from '../images/postGrading.png'
 import runReports from '../images/runReports.png'
+import forms from '../images/forms.png'
+import typographyLong from '../images/typography_long.png'
 
 class Main extends React.Component {
   render() {
@@ -45,32 +47,32 @@ class Main extends React.Component {
             <img src={colors} alt="colors per design system" />
           </span>
           <p>
-            Using high fidelity prototypes to demo the workflow, so 
-            project managers, developers, and stakeholders can visualize, 
-            discuss, and iterate through the product. Often times, we would 
-            discover elements that would be very helpful to the users or 
-            provide the backend team key information that some params in 
-            the query would ease the frontend api call greatly, thus improve 
-            app's performance. Other times, we would eliminate elements that 
-            are simply not necessary. 
+            Design system is a great tool to unit company's brand and style  
+            to the digital front. It provides a single source of truth to 
+            web components, ease of development and increase brand recognition.  
           </p>
           <span className="image main">
-            <img src={cit2} alt="course integration tools extended" />
+            <img src={typographyLong} alt="consistent typography guide" />
           </span>
+          <p>
+            Forms and switches are frequently used in apps and websites. Having 
+            a visual cue of what that element should look like in various states 
+            is a highly useful tool to dev team.
+          </p>
           <span className="image main">
-            <img src={beginGrading} alt="interactive grading feature" />
+            <img src={forms} alt="forms guide" />
           </span>
           {close}
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="project"
+          className={`${this.props.article === 'project' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Project</h2>
           <p>
             My principle for work is using simple, elegant, responsive design 
             with strong empathy from users' perspective and effective framework 
@@ -83,18 +85,38 @@ class Main extends React.Component {
             <img src={runReports} alt="run reports landing page" />
           </span>
           <p>
-            I prototype and code various projects. My favorite prototyping tool 
-            is Xd currently. Most recently, there is an extension out in VS Code 
-            to incorporate design system generated in Xd for development. But 
-            I've heard good things about Figma, and am eager to learn more 
-            about it. 
+            I prototype and code various projects. Using high fidelity prototypes 
+            to demo the workflow, so project managers, developers, and stakeholders 
+            can visualize, discuss, and iterate through the product. Often times, 
+            we would discover elements that would be very helpful to the users or 
+            provide the backend team key information that some params in the query 
+            would ease the frontend api call greatly, thus improve app's performance. 
+            Other times, we would eliminate elements that are simply not necessary. 
           </p>
           <span className="image main">
             <img src={cit} alt="course integration tools" />
           </span>
           <span className="image main">
-            <img src={recordedGrading} alt="gradings recorded" />
+            <img src={cit2} alt="expanded course outlines" />
           </span>
+          <p>
+            Here's an example of a prototype with various grading options &amp; filters.
+          </p>
+          <span className="image main">
+            <img src={beginGrading} alt="grading options" />
+          </span>
+          <span className="image main">
+            <img src={postGrading} alt="post grading view" />
+          </span>
+          <p>
+            This is an example of the prototyped user management project 
+            that is now live in production.
+          </p>
+          <iframe width="100%" height="315" 
+            src="https://www.youtube.com/embed/O4DKzD9uUow" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
           {close}
         </article>
 

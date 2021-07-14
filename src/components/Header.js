@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>Dona Hsieh</h1>
         <p>
-          Welcome! I am a product designer and a frontend developer with keen eyes on UI/UX.<br />
+          Hi! I am a frontend developer and a product designer with keen eyes on UI/UX.<br />
           Using simple, elegant, responsive design with strong empathy from users' perspective.<br />
           Glad you drop by.
         </p>
@@ -30,10 +30,10 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('project')
             }}
           >
-            Work
+            Project
           </button>
         </li>
         <li>
