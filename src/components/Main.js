@@ -11,7 +11,7 @@ import postGrading from '../images/postGrading.png'
 import runReports from '../images/runReports.png'
 import forms from '../images/forms.png'
 import typographyLong from '../images/typography_long.png'
-import moviedb from '../images/moviedb.png'
+import moviedb from '../images/moviedb.jpg'
 
 class Main extends React.Component {
   render() {
