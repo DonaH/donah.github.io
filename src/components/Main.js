@@ -11,6 +11,7 @@ import postGrading from '../images/postGrading.png'
 import runReports from '../images/runReports.png'
 import forms from '../images/forms.png'
 import typographyLong from '../images/typography_long.png'
+import moviedb from '../images/moviedb.png'
 
 class Main extends React.Component {
   render() {
@@ -73,6 +74,14 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Project</h2>
+          <p>
+            Check out this React App leveraging The Movie Database API. 
+          </p>
+          <a href="https://moviedb-dh.netlify.app">
+          <span className="image main">
+            <img src={moviedb} alt="movie database search" />
+          </span>
+          </a>
           <p>
             My principle for work is using simple, elegant, responsive design 
             with strong empathy from users' perspective and effective framework 
@@ -152,7 +161,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <span className="image img">
-            <img className="myPic" src={myPic} alt="profile picture" />
+            <img className="myPic" src={myPic} alt="profile" />
           </span>
           <form method="post" action="https://formspree.io/f/xknkzpvk">
             <div className="field half first">
