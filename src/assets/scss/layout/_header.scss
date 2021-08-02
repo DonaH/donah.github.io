@@ -69,6 +69,11 @@
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
 
+    &:hover {
+      transition: 1s;
+      transform: rotateY(180deg);
+    }
+
     .icon {
       &:before {
         font-size: 2rem;
