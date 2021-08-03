@@ -88,7 +88,8 @@ class Main extends React.Component {
             to deliver that experience. All the while, working together along 
             side comrades like fellow developer, graphic designer, project 
             manager, quality assurance manager... to achieve the ultimate goal 
-            of delightful product that's truly impactful.
+            of delightful product that's truly impactful. Angular, Node, Bootstrap,
+            and GraphQL are used to make the following reporting app robust.
           </p>
           <span className="image main">
             <img src={runReports} alt="run reports landing page" />
