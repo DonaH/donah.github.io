@@ -145,7 +145,7 @@ class Main extends React.Component {
             a piece of music and play it through EVENTUALLY (let me tell you, 
             it's a slow process, but gratifying). Other than that, I bike in 
             the weekends and love to make and share food. This is one of my 
-            favorite image from unsplash.
+            favorite images from unsplash.
           </p>
           <span className="image main">
             <img src={loneHike} alt="favorite pic from unsplash" />
